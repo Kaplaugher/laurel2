@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app class="white">
+    <app-toolbar />
+
+    <app-drawer />
+
+    <app-jumbotron />
+
+    <app-view />
+
+    <app-footer />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import AppDrawer from '@/components/core/AppDrawer'
+  import AppFooter from '@/components/core/AppFooter'
+  import AppJumbotron from '@/components/core/AppJumbotron'
+  import AppToolbar from '@/components/core/AppToolbar'
+  import AppView from '@/components/core/AppView'
+  import Meta from '@/mixins/meta'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    components: {
+      AppDrawer,
+      AppFooter,
+      AppJumbotron,
+      AppToolbar,
+      AppView
+    },
+    mixins: [Meta]
   }
-}
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
