@@ -1,6 +1,6 @@
 export default {
-  jumbotronTitle: "Contact Laurel Springs Animal Hospital",
-  jumbotronSubTitle: "Get in touch with our Staff",
+  jumbotronTitle: "Contact Us",
+  jumbotronSubTitle: "Get in touch with our staff",
   heading1: "We'd Love to Hear From You!",
   headingText1:
     "To request more informaiton, please fill out and submit the form below",

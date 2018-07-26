@@ -4,7 +4,7 @@
       dark
       :height="isHome ? '40vh' : '30vh'"
       src="/static/dogcat.jpg"
-      gradient="to top, rgba(13, 3, 29, .85), rgba(25, 25, 38, .85)"
+      gradient="to top, rgba(13, 3, 29, .7), rgba(25, 25, 38, .7)"
       :key="$route.path"
     >
       <v-fade-transition mode="out-in">

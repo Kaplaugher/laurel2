@@ -35,9 +35,9 @@ export default [
     }
   },
   {
-    path: "clinictour",
+    path: "tour",
     // Relative to /src/views
-    view: "ClinicTour",
+    view: "Tour",
     meta: {
       title: "Clinic Tour",
       description: "Customized vue-cli templates for Vue and Vuetify",

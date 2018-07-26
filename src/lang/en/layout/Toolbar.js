@@ -13,8 +13,8 @@ export default {
       text: "About"
     },
     {
-      to: "/clinictour",
-      text: "Clinic Tour"
+      to: "/tour",
+      text: "Tour"
     },
     {
       to: "/contact",
