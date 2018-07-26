@@ -15,7 +15,7 @@
       >
         <v-card flat tile>
           <v-card-media
-            :src="`/static/${feature.img}.png`"
+            :src="`/static/${feature.img}`"
             :height="cardHeight"
           />
           <v-card-title class="title" v-text="feature.title" />
@@ -27,18 +27,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'alpha-card-feature',
+export default {
+  name: "alpha-card-feature",
 
-    props: {
-      cardHeight: {
-        type: String,
-        default: '200px'
-      },
-      features: {
-        type: Array,
-        default: () => ([])
-      }
+  props: {
+    cardHeight: {
+      type: String,
+      default: "200px"
+    },
+    features: {
+      type: Array,
+      default: () => []
     }
   }
+};
 </script>

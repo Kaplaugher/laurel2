@@ -3,7 +3,7 @@
     <v-jumbotron
       dark
       :height="isHome ? '40vh' : '30vh'"
-      :src="`/static/${namespace.toLowerCase()}-jumbotron.jpg`"
+      src="/static/dogcat.jpg"
       gradient="to top, rgba(13, 3, 29, .85), rgba(25, 25, 38, .85)"
       :key="$route.path"
     >
@@ -42,34 +42,34 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      isBooted: false
-    }),
+export default {
+  data: () => ({
+    isBooted: false
+  }),
 
-    computed: {
-      isHome () {
-        return this.$route.path === '/'
-      },
-      namespace () {
-        const path = this.$route.path.slice(1)
-
-        return this.isHome
-          ? 'Home'
-          : `${path.substr(0, 1).toUpperCase()}${path.slice(1)}`
-      },
-      title () {
-        return this.$t(`Views.${this.namespace}.jumbotronTitle`)
-      },
-      subTitle () {
-        return this.$t(`Views.${this.namespace}.jumbotronSubTitle`)
-      }
+  computed: {
+    isHome() {
+      return this.$route.path === "/";
     },
+    namespace() {
+      const path = this.$route.path.slice(1);
 
-    mounted () {
-      setTimeout(() => {
-        this.isBooted = true
-      }, 200)
+      return this.isHome
+        ? "Home"
+        : `${path.substr(0, 1).toUpperCase()}${path.slice(1)}`;
+    },
+    title() {
+      return this.$t(`Views.${this.namespace}.jumbotronTitle`);
+    },
+    subTitle() {
+      return this.$t(`Views.${this.namespace}.jumbotronSubTitle`);
     }
+  },
+
+  mounted() {
+    setTimeout(() => {
+      this.isBooted = true;
+    }, 200);
   }
+};
 </script>

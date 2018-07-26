@@ -1,26 +1,29 @@
 export default {
-  jumbotronTitle: "Welcome to Laurel Springs Animal Hospital",
+  jumbotronTitle: "Laurel Springs Animal Hospital",
   jumbotronSubTitle: "We Love Them Like You Do.",
   callToActionBtn: "Request a Quote",
   platformHeader: "Why Choose Us?",
+  welcomeTitle: "Welcome to Laurel Springs Animal Hospital",
+  welcomeDescription:
+    "We are a full service small animal practice overseeing a wide range of medical and surgical services for your pets. We believe in preventive care which means we want to keep your pet healthy so they can live a long and happy life. Our standards of care allow for us to identify and diagnose underlying conditions using comprehensive wellness exam and blood testing before they threaten the health of your pet.",
   cardFeatures: [
     {
       title: "Superior Care",
       text:
         "At Laurel Springs Animal Hospital, we understand that your pet is a special part of your familly and we take the appropriate steps to...",
-      img: "feature1"
+      img: "doggy.jpg"
     },
     {
       title: "State of the art facilities",
       text:
         "lorem, lorem lorem lorem lorem lorem lorem lorem v lorem lorem lorem lorem lorem lorem",
-      img: "feature2"
+      img: "cat.png"
     },
     {
       title: "Friendly and courteoous staff",
       text:
         "lorem, lorem lorem lorem lorem lorem lorem lorem v lorem lorem lorem lorem lorem lorem",
-      img: "feature3"
+      img: "mouse.jpeg"
     }
   ],
   listFeatures: [
@@ -62,16 +65,16 @@ export default {
   ],
   testimonials: [
     {
-      author: "Elizabeth Marner",
-      title: "CEO, Boca Cola",
+      author: "William M.",
+      title: "",
       quote:
-        '"Using AlphaSoftware’s Cloud Platform, the campaign runs smoothly 24/7 and includes redundancy, failover techniques, backups and state-of-the-art monitoring. Plus, it’s affordable."'
+        '“Dr. Tierney and her staff are true professionals. She takes time with you and your pet to answer questions and make sure you are comfortable with the treatment and the follow up prescribed. We would not take our pet anywhere else"'
     },
     {
-      author: "Miguel Killorn",
+      author: "Dawn W.",
       title: "CEO, Abocado",
       quote:
-        '"The ease, integration and scalability that Alpha Softwareoffers with Cloud Platform allow us to offer the best online grocery shopping around."'
+        "“I have been bringing my dog and 5 cats to Dr. Tierney for the last 7 years and couldnt be happier. She really makes us all feel like family :-)”"
     }
   ]
 };
