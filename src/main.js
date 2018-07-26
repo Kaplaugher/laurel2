@@ -22,6 +22,7 @@ import router from "./router";
 import store from "./store";
 
 import * as VueGoogleMaps from "vue2-google-maps";
+import VueGallery from "vue-gallery";
 
 // Sync store with router
 sync(store, router);
@@ -44,6 +45,8 @@ Vue.use(VueGoogleMaps, {
     key: "AIzaSyCKp9ObjUhyshoj0UiQla91irM56EaxzP8"
   }
 });
+
+Vue.component("gallery", VueGallery);
 
 Vue.prototype.$http = axios;
 

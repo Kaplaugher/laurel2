@@ -35,6 +35,16 @@ export default [
     }
   },
   {
+    path: "clinictour",
+    // Relative to /src/views
+    view: "ClinicTour",
+    meta: {
+      title: "Clinic Tour",
+      description: "Customized vue-cli templates for Vue and Vuetify",
+      keywords: "vue, vuetify, vuetify templates, vuetify themes"
+    }
+  },
+  {
     path: "contact",
     // Relative to /src/views
     view: "Contact",
