@@ -72,7 +72,7 @@ export default {
     },
     {
       author: "Dawn W.",
-      title: "CEO, Abocado",
+      title: "",
       quote:
         "“I have been bringing my dog and 5 cats to Dr. Tierney for the last 7 years and couldnt be happier. She really makes us all feel like family :-)”"
     }

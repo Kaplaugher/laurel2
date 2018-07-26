@@ -27,23 +27,18 @@
           </v-card-actions>
         </v-card>
       </v-flex>
-      <v-flex xs12 sm3>
-        <v-card>
-          <v-card-media>
-            <img
-              src="/static/LaurelSpringsLogo.png"
-              alt="logo"
-              class="my-3 px-3"
-            >
-          </v-card-media>
-          <v-card-text>
-            <div v-text="$t('Views.Contact.phone')" class="mb-3" />
-            <div v-text="$t('Views.Contact.address')" />
-            <div v-text="$t('Views.Contact.cityState')" />
-            <div v-text="$t('Views.Contact.zip')" />
-          </v-card-text>
-        </v-card>
+      <v-flex xs12 sm6>
+        <GoogleMap />
       </v-flex>
     </v-layout>
   </v-container>
 </template>
+<script>
+import GoogleMap from "@/components/core/GoogleMap.vue";
+export default {
+  components: {
+    GoogleMap
+  }
+};
+</script>
+

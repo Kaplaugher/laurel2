@@ -21,6 +21,8 @@ import i18n from "./i18n";
 import router from "./router";
 import store from "./store";
 
+import * as VueGoogleMaps from "vue2-google-maps";
+
 // Sync store with router
 sync(store, router);
 
@@ -36,6 +38,13 @@ Vue.use(Vuetify, {
     warning: "#FFC107"
   }
 });
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: "AIzaSyCKp9ObjUhyshoj0UiQla91irM56EaxzP8"
+  }
+});
+
 Vue.prototype.$http = axios;
 
 // Load custom components
