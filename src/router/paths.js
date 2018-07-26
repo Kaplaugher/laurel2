@@ -5,43 +5,43 @@
  */
 export default [
   {
-    path: '',
+    path: "",
     // Relative to /src/views
-    view: 'Home',
+    view: "Home",
     meta: {
-      title: 'Home — Alpha',
-      description: 'Customized vue-cli templates for Vue and Vuetify',
-      keywords: 'vue, vuetify, vuetify templates, vuetify themes'
+      title: "Home",
+      description: "Customized vue-cli templates for Vue and Vuetify",
+      keywords: "vue, vuetify, vuetify templates, vuetify themes"
     }
   },
   {
-    path: 'services',
+    path: "services",
     // Relative to /src/views
-    view: 'Services',
+    view: "Services",
     meta: {
-      title: 'Services — Alpha',
-      description: 'Customized vue-cli templates for Vue and Vuetify',
-      keywords: 'vue, vuetify, vuetify templates, vuetify themes'
+      title: "Our Services",
+      description: "Customized vue-cli templates for Vue and Vuetify",
+      keywords: "vue, vuetify, vuetify templates, vuetify themes"
     }
   },
   {
-    path: 'about',
+    path: "about",
     // Relative to /src/views
-    view: 'About',
+    view: "About",
     meta: {
-      title: 'About — Alpha',
-      description: 'Customized vue-cli templates for Vue and Vuetify',
-      keywords: 'vue, vuetify, vuetify templates, vuetify themes'
+      title: "About",
+      description: "Customized vue-cli templates for Vue and Vuetify",
+      keywords: "vue, vuetify, vuetify templates, vuetify themes"
     }
   },
   {
-    path: 'contact',
+    path: "contact",
     // Relative to /src/views
-    view: 'Contact',
+    view: "Contact",
     meta: {
-      title: 'About — Alpha',
-      description: 'Customized vue-cli templates for Vue and Vuetify',
-      keywords: 'vue, vuetify, vuetify templates, vuetify themes'
+      title: "Contact",
+      description: "Customized vue-cli templates for Vue and Vuetify",
+      keywords: "vue, vuetify, vuetify templates, vuetify themes"
     }
   }
-]
+];

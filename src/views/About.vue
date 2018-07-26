@@ -11,7 +11,7 @@
             <v-card
               flat
               height="300px"
-              img="/static/feature2.png"
+              img="/static/kitten.jpg"
             />
           </v-flex>
         </v-layout>
@@ -22,7 +22,7 @@
             <v-card
               flat
               height="300px"
-              img="/static/feature3.png"
+              img="/static/drt.jpg"
             />
           </v-flex>
           <v-flex xs12 md8>

@@ -1,20 +1,24 @@
 export default {
   items: [
     {
-      to: '/',
-      text: 'Home'
+      to: "/",
+      text: "Home"
     },
     {
-      to: '/services',
-      text: 'Services'
+      to: "/services",
+      text: "Services"
     },
     {
-      to: '/about',
-      text: 'About'
+      to: "/about",
+      text: "About"
     },
     {
-      to: '/contact',
-      text: 'Contacts'
+      to: "/clinictour",
+      text: "Clinic Tour"
+    },
+    {
+      to: "/contact",
+      text: "Contact Us"
     }
   ]
-}
+};

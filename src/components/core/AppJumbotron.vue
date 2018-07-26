@@ -25,13 +25,6 @@
                   v-html="subTitle"
                   v-if="subTitle"
                 />
-                <v-btn
-                  color="primary px-4 mt-5"
-                  dark
-                  v-if="isHome"
-                >
-                  {{ $t('Views.Home.callToActionBtn')}}
-                </v-btn>
               </v-flex>
             </v-fade-transition>
           </v-layout>

@@ -1,18 +1,45 @@
 <template>
   <v-container fill-height>
-    <v-layout wrap pb-5>
-      <v-flex md4 hidden-sm-and-down>
-        <v-card img="/static/feature1.png" height="250px" />
+    <v-layout wrap pt-5 justify-center align-center>
+      <v-flex md3 xs6>
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
       </v-flex>
-      <v-flex xs12 md8 :pl-5="$vuetify.breakpoint.mdAndUp">
-        <h2 class="title mb-3" v-text="$t('Views.Services.heading1')" />
-        <p v-text="$t('Views.Services.headingText1')" />
+      <v-flex md3 xs6>
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
       </v-flex>
-      <v-flex xs12 sm8 md6 mb-5 class="py-5">
-        <h2 class="title mb-3" v-text="$t('Views.Services.heading2')" />
-        <p v-text="$t('Views.Services.headingText2a')" />
-        <p v-text="$t('Views.Services.headingText2b')" />
-        <p v-text="$t('Views.Services.headingText2c')" />
+      <v-flex md3 xs6>
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
+      </v-flex>
+      <v-flex md3 xs6>
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
       </v-flex>
       <v-flex xs12>
         <v-layout justify-center>
@@ -30,15 +57,15 @@
 </template>
 
 <script>
-  export default {
-    computed: {
-      testimonial () {
-        return {
-          quote: this.$t('Views.Services.testimonial.quote'),
-          author: this.$t('Views.Services.testimonial.author'),
-          title: this.$t('Views.Services.testimonial.title')
-        }
-      }
+export default {
+  computed: {
+    testimonial() {
+      return {
+        quote: this.$t("Views.Services.testimonial.quote"),
+        author: this.$t("Views.Services.testimonial.author"),
+        title: this.$t("Views.Services.testimonial.title")
+      };
     }
   }
+};
 </script>

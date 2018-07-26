@@ -7,7 +7,7 @@
     v-scroll="onScroll"
   >
     <img
-      src="/static/alpha-software-logo.png"
+      src="/static/LaurelSpringsLogo.png"
       
     />
     <v-spacer />
@@ -29,26 +29,26 @@
 </template>
 
 <script>
-  import { mapMutations } from 'vuex'
-  export default {
-    data: () => ({
-      isScrolling: false
+import { mapMutations } from "vuex";
+export default {
+  data: () => ({
+    isScrolling: false
+  }),
+
+  computed: {
+    items() {
+      return this.$t("Layout.Toolbar.items");
+    }
+  },
+
+  methods: {
+    ...mapMutations({
+      toggleDrawer: "TOGGLE_DRAWER"
     }),
-
-    computed: {
-      items () {
-        return this.$t('Layout.Toolbar.items')
-      }
-    },
-
-    methods: {
-      ...mapMutations({
-        toggleDrawer: 'TOGGLE_DRAWER'
-      }),
-      onScroll () {
-        this.isScrolling = (window.pageYOffset ||
-          document.documentElement.scrollTop || 0) > 100
-      }
+    onScroll() {
+      this.isScrolling =
+        (window.pageYOffset || document.documentElement.scrollTop || 0) > 100;
     }
   }
+};
 </script>

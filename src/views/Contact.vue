@@ -31,7 +31,7 @@
         <v-card>
           <v-card-media>
             <img
-              src="/static/alpha-software-logo-dark.png"
+              src="/static/LaurelSpringsLogo.png"
               alt="logo"
               class="my-3 px-3"
             >
